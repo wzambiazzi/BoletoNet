@@ -640,6 +640,10 @@ namespace BoletoNet
                         descricaoCarteira = new Carteira_Itau(carteira).Codigo;
                         break;
 
+                    case 756:
+                        descricaoCarteira = new Carteira_Sicoob(carteira).Codigo;
+                        break;
+
                     default:
                         throw new Exception(string.Format("A descrição para o banco {0} não foi implementada.", Boleto.Banco));
                         throw new Exception(string.Format("A descrição da carteira {0} / banco {1} não foi implementada (marque false na propriedade MostrarCodigoCarteira)", carteira, Banco.Codigo));

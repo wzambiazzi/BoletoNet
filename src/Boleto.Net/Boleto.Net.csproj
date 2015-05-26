@@ -84,6 +84,7 @@
     <Compile Include="Banco\Carteiras\Brasil\CarteiraBrasil.cs" />
     <Compile Include="Banco\Carteiras\IBancoCarteira.cs" />
     <Compile Include="Banco\Carteiras\TipoCarteiraAttribute.cs" />
+    <Compile Include="Boleto\Carteira\Carteira_Sicoob.cs" />
     <Compile Include="Boleto\EspecieDocumento\EspecieDocumento_Sicoob.cs" />
     <Compile Include="Boleto\Instrucao\Instrucao_Banestes.cs" />
     <Compile Include="Banco\Banco_Bansirul.cs" />
